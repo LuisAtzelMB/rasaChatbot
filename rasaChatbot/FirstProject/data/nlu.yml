@@ -1,0 +1,396 @@
+version: "3.1"
+
+nlu:
+  - intent: saludar
+    examples: |
+      - hola
+      - buenos días
+      - buenas tardes
+      - buenas noches
+      - ey
+      - qué tal
+      - saludos
+      - hola ahí
+      - vamos
+      - hola amigo
+      - buen día
+      - buenas
+      - qué onda
+
+#
+#1. Sobre el contenido del curso
+#
+#¿Qué temas se cubren en el curso para examen EGEL egreso licenciatura área transversal?
+  - intent: preguntar_temas_egel_transversal
+    examples: |
+      - ¿Qué temas se cubren en el curso para examen EGEL egreso licenciatura área transversal?
+      - ¿Cuál es el contenido del curso para el EGEL de área transversal?
+      - ¿Qué temas incluye el curso para el examen EGEL de egreso de área transversal?
+      - Necesito saber los temas del curso para el EGEL de área transversal.
+      - ¿Qué se estudia en el curso para el examen EGEL de área transversal?
+      - ¿Qué temas abarca el curso para el EGEL de área transversal?
+
+#¿Qué temas se cubren en el curso para el examen EGEL de egreso de Psicología?
+  - intent: preguntar_temas_egel_psicologia
+    examples: |
+      - ¿Qué temas se cubren en el curso para el examen EGEL de egreso de Psicología?
+      - ¿Cuál es el contenido del curso para el EGEL de Psicología?
+      - ¿Qué temas incluye el curso para el examen EGEL de Psicología?
+      - Necesito saber los temas del curso para el EGEL de Psicología.
+      - ¿Qué se estudia en el curso para el examen EGEL de Psicología?
+      - ¿Qué temas abarca el curso para el EGEL de egreso de Psicología?
+      - ¿Qué contenido tiene el curso para el EGEL de Psicología?
+
+#¿Qué temas se cubren en el curso para el examen EGEL de egreso de Pedagogía?
+  - intent: preguntar_temas_egel_pedagogia
+    examples: |
+      - ¿Qué temas se cubren en el curso para el examen EGEL de egreso de Pedagogía?
+      - ¿Cuál es el contenido del curso para el EGEL de Pedagogía?
+      - ¿Qué temas incluye el curso para el examen EGEL de Pedagogía?
+      - Necesito saber los temas del curso para el EGEL de Pedagogía.
+      - ¿Qué se estudia en el curso para el examen EGEL de Pedagogía?
+      - ¿Qué temas abarca el curso para el EGEL de egreso de Pedagogía?
+      - ¿Qué contenido tiene el curso para el EGEL de Pedagogía?
+
+#¿El curso es teórico, práctico o una combinación de ambos ?
+  - intent: preguntar_modalidad_curso
+    examples: |
+      - ¿El curso es teórico, práctico o una combinación de ambos?
+      - ¿El curso es solo teórico?
+      - ¿El curso incluye práctica o es solo teoría?
+      - ¿Es un curso teórico-práctico?
+      - ¿El curso tiene parte práctica?
+      - ¿El curso es más teórico o más práctico?
+      - ¿Qué tipo de modalidad tiene el curso?
+      - ¿El curso combina teoría y práctica?
+
+#¿Hay algún requisito previo para tomar el curso (conocimientos básicos, experiencia, etc.) ?
+  - intent: preguntar_requisitos_curso
+    examples: |
+      - ¿Hay algún requisito previo para tomar el curso (conocimientos básicos, experiencia, etc.)?
+      - ¿Necesito conocimientos previos para tomar el curso?
+      - ¿Qué requisitos hay para inscribirme en el curso?
+      - ¿Se necesita experiencia previa para tomar el curso?
+      - ¿Hay algún requisito para el curso?
+      - ¿Qué necesito saber antes de tomar el curso?
+      - ¿El curso requiere conocimientos básicos?
+      - ¿Hay requisitos de entrada para el curso?
+
+#
+#2. Sobre la duración y horarios
+#
+
+#"¿Cuánto dura el curso para el examen EGEL de egreso de licenciatura área transversal?"
+  - intent: preguntar_duracion_curso_egel_transversal
+    examples: |
+      - ¿Cuánto dura el curso para el área transversal?
+      - ¿Cuál es la duración para el área transversal?
+      - ¿Cuánto tiempo dura el curso para el EGEL de licenciatura?
+      - ¿Cuántas horas o semanas dura el curso para el area transversal?
+      - ¿Qué duración tiene el curso para el EGEL de área transversal?
+      - ¿Cuánto tiempo se necesita para completar el curso del EGEL area transversal?
+      - ¿Cuánto dura el curso del EGEL area transversal?
+
+#"¿Cuánto dura el curso para el examen EGEL de egreso de la licenciatura en Psicología? "
+  - intent: preguntar_duracion_curso_psicologia
+    examples: |
+      - ¿Cuánto dura el curso para el examen EGEL de egreso de la licenciatura en Psicología?
+      - Duración del curso de Psicología para el EGEL
+      - ¿Cuánto tiempo dura el curso de Psicología para el EGEL?
+      - Necesito saber la duración del curso de Psicología para el examen EGEL
+
+#"¿Cuánto dura el curso para el examen EGEL de egreso de la licenciatura en Pedagogía? "
+
+  - intent: preguntar_duracion_curso_pedagogia
+    examples: |
+      - ¿Cuánto dura el curso para el examen EGEL de egreso de la licenciatura en Pedagogía?
+      - Duración del curso de Pedagogía para el EGEL
+      - ¿Cuánto tiempo dura el curso de Pedagogía para el EGEL?
+      - Necesito saber la duración del curso de Pedagogía para el examen EGEL
+
+#"¿Los horarios son flexibles o fijos ?"
+
+  - intent: preguntar_horarios
+    examples: |
+      - ¿Los horarios son flexibles o fijos?
+      - ¿Puedo estudiar a cualquier hora?
+      - ¿Hay horarios fijos para el curso?
+      - ¿Cómo funcionan los horarios del curso?
+
+#"¿Hay opciones para tomar el curso en línea, presencial o híbrido?"
+
+  - intent: preguntar_tipo_curso
+    examples: |
+      - ¿Hay opciones para tomar el curso en línea, presencial o híbrido?
+      - ¿Se puede tomar el curso en línea?
+      - ¿El curso es presencial?
+      - ¿El curso tiene modalidad híbrida?
+
+
+#
+#3. Sobre los instructores
+#
+
+#¿Quiénes son los instructores y cuál es su experiencia en el campo?
+
+  - intent: preguntar_instructores_experiencia
+    examples: |
+      - ¿Quiénes son los instructores y cuál es su experiencia en el campo?
+      - ¿Qué experiencia tienen los profesores?
+      - ¿Cuál es la trayectoria de los instructores?
+      - ¿Los profesores tienen experiencia en el campo?
+      - ¿Pueden darme información sobre los instructores y su experiencia?
+
+#¿Los instructores están disponibles para resolver dudas durante o después del curso?
+
+  - intent: preguntar_disponibilidad_instructores
+    examples: |
+      - ¿Los instructores están disponibles para resolver dudas durante o después del curso?
+      - ¿Puedo contactar a los profesores si tengo dudas?
+      - ¿Los profesores resuelven dudas durante el curso?
+      - ¿Hay soporte de los instructores después del curso?
+      - ¿Puedo hacer preguntas a los profesores durante el curso?
+
+#¿Hay oportunidades para interactuar directamente con los instructores?
+
+  - intent: preguntar_interaccion_instructores
+    examples: |
+      - ¿Hay oportunidades para interactuar directamente con los instructores?
+      - ¿Puedo hablar directamente con los profesores?
+      - ¿Hay interacción directa con los instructores?
+      - ¿Los profesores están disponibles para interactuar?
+      - ¿Puedo contactar a los instructores durante el curso?
+
+#
+#4. Sobre los materiales y recursos
+#
+
+#¿Se proporcionan materiales de estudio (libros, presentaciones, guías, etc.)?
+  - intent: preguntar_materiales_estudio
+    examples: |
+      - ¿Se proporcionan materiales de estudio (libros, presentaciones, guías, etc.)?
+      - ¿Incluyen materiales de estudio como libros o guías?
+      - ¿Hay materiales de estudio disponibles?
+      - ¿Proporcionan presentaciones y guías para el curso?
+      - ¿Qué materiales de estudio se incluyen en el curso?
+
+#¿Hay acceso a plataformas en línea o herramientas adicionales?
+
+  - intent: preguntar_plataformas_herramientas
+    examples: |
+      - ¿Hay acceso a plataformas en línea o herramientas adicionales?
+      - ¿Qué plataformas en línea se usan en el curso?
+      - ¿Hay herramientas adicionales para el aprendizaje?
+      - ¿Puedo acceder a plataformas en línea durante el curso?
+      - ¿Qué herramientas incluye el curso?
+
+#¿Los materiales están incluidos en el costo del curso o hay que pagarlos por separado?
+
+  - intent: preguntar_costo_materiales
+    examples: |
+      - ¿Los materiales están incluidos en el costo del curso o hay que pagarlos por separado?
+      - ¿Hay que pagar extra por los materiales de estudio?
+      - ¿Los materiales tienen un costo adicional?
+      - ¿El costo del curso incluye los materiales?
+      - ¿Los libros y guías están incluidos en el precio?
+#
+#5. Sobre el costo y métodos de pago
+#
+
+#¿Cuál es el costo total del curso para el examen EGEL de egreso de la licenciatura área transversal?
+
+  - intent: preguntar_costo_curso_transversal
+    examples: |
+      - ¿Cuál es el costo total del curso para el examen EGEL de egreso de la licenciatura área transversal?
+      - ¿Cuánto cuesta el curso para el EGEL de egreso en el área transversal?
+      - Precio del curso para el EGEL de egreso en transversal
+      - ¿Cuál es el precio del curso para el EGEL de egreso en transversal?
+      - Necesito saber el costo del curso para el EGEL de egreso en transversal
+
+#¿Cuál es el costo total del curso para el examen EGEL de egreso de la licenciatura en Psicología?
+
+  - intent: preguntar_costo_curso_psicologia
+    examples: |
+      - ¿Cuál es el costo total del curso para el examen EGEL de egreso de la licenciatura en Psicología?
+      - ¿Cuánto cuesta el curso para el EGEL de egreso en Psicología?
+      - Precio del curso para el EGEL de egreso en Psicología
+      - ¿Cuál es el precio del curso para el EGEL de egreso en Psicología?
+      - Necesito saber el costo del curso para el EGEL de egreso en Psicología
+
+#¿Cuál es el costo total del curso para el examen EGEL de egreso de la licenciatura en Pedagogía?
+
+  - intent: preguntar_costo_curso_pedagogia
+    examples: |
+      - ¿Cuál es el costo total del curso para el examen EGEL de egreso de la licenciatura en Pedagogía?
+      - ¿Cuánto cuesta el curso para el EGEL de egreso en Pedagogía?
+      - Precio del curso para el EGEL de egreso en Pedagogía
+      - ¿Cuál es el precio del curso para el EGEL de egreso en Pedagogía?
+      - Necesito saber el costo del curso para el EGEL de egreso en Pedagogía
+
+#¿Qué métodos de pago están disponibles (tarjeta, transferencia, PayPal, etc.)?
+
+  - intent: preguntar_metodos_pago
+    examples: |
+      - ¿Qué métodos de pago están disponibles (tarjeta, transferencia, PayPal, etc.)?
+      - ¿Cómo puedo pagar el curso?
+      - ¿Aceptan tarjetas de crédito o débito?
+      - ¿Se puede pagar con PayPal?
+      - ¿Qué opciones de pago tienen?
+      
+
+#
+#6. Sobre la experiencia del curso y 7. Sobre garantías y políticas, 7. Sobre garantías y políticas y 8. Sobre resultados y beneficios
+#
+
+#¿Cómo es la metodología de enseñanza (clases en vivo, videos grabados, ejercicios prácticos, etc.)?
+
+  - intent: preguntar_metodologia_enseñanza
+    examples: |
+      - ¿Cómo es la metodología de enseñanza (clases en vivo, videos grabados, ejercicios prácticos, etc.)?
+      - ¿Qué metodología usan en los cursos?
+      - ¿Cómo se imparten las clases?
+      - ¿Hay clases en vivo o solo videos grabados?
+      - ¿Incluyen ejercicios prácticos en la metodología?
+
+
+#¿Qué pasa si no puedo asistir a alguna clase? ¿Hay reposiciones o acceso a grabaciones?
+
+  - intent: preguntar_reposicion_clases
+    examples: |
+      - ¿Qué pasa si no puedo asistir a alguna clase? ¿Hay reposiciones o acceso a grabaciones?
+      - ¿Puedo ver las clases si no asisto?
+      - ¿Hay grabaciones de las clases?
+      - ¿Qué hago si me pierdo una clase?
+      - ¿Puedo acceder a las clases después de que terminen?
+
+#¿Puedo probar el curso antes de comprometerme (clase de prueba, demo, etc.)?
+
+  - intent: preguntar_clase_prueba
+    examples: |
+      - ¿Puedo probar el curso antes de comprometerme (clase de prueba, demo, etc.)?
+      - ¿Ofrecen una clase de prueba?
+      - ¿Hay una demo del curso?
+      - ¿Puedo probar el curso antes de pagar?
+      - ¿Hay una versión de prueba del curso?
+
+#¿Qué habilidades o conocimientos obtendré al finalizar el curso para el examen EGEL de egreso de la licenciatura área transversal?
+
+  - intent: preguntar_habilidades_transversal
+    examples: |
+      - ¿Qué habilidades o conocimientos obtendré al finalizar el curso para el examen EGEL de egreso de la licenciatura área transversal?
+      - ¿Qué aprenderé en el curso de transversal?
+      - ¿Qué habilidades desarrollaré en el curso de EGEL transversal?
+      - ¿Qué conocimientos obtendré en el curso de transversal?
+      - ¿Qué me preparará el curso de transversal para el EGEL?
+
+#¿Qué habilidades o conocimientos obtendré al finalizar el  curso para el examen EGEL de egreso de la licenciatura en Psicología?
+
+  - intent: preguntar_habilidades_psicologia
+    examples: |
+      - ¿Qué habilidades o conocimientos obtendré al finalizar el curso para el examen EGEL de egreso de la licenciatura en Psicología?
+      - ¿Qué aprenderé en el curso de Psicología?
+      - ¿Qué habilidades desarrollaré en el curso de EGEL Psicología?
+      - ¿Qué conocimientos obtendré en el curso de Psicología?
+      - ¿Qué me preparará el curso de Psicología para el EGEL?
+
+#¿Qué habilidades o conocimientos obtendré al finalizar el  curso para el examen EGEL de egreso de la licenciatura en Pedagogía?
+
+  - intent: preguntar_habilidades_pedagogia
+    examples: |
+      - ¿Qué habilidades o conocimientos obtendré al finalizar el curso para el examen EGEL de egreso de la licenciatura en Pedagogía?
+      - ¿Qué aprenderé en el curso de Pedagogía?
+      - ¿Qué habilidades desarrollaré en el curso de EGEL Pedagogía?
+      - ¿Qué conocimientos obtendré en el curso de Pedagogía?
+      - ¿Qué me preparará el curso de Pedagogía para el EGEL?
+
+#¿Hay testimonios o casos de éxito de estudiantes anteriores?
+
+  - intent: preguntar_testimonios
+    examples: |
+      - ¿Hay testimonios o casos de éxito de estudiantes anteriores?
+      - ¿Qué dicen otros estudiantes sobre el curso?
+      - ¿Tienen comentarios de exalumnos?
+      - ¿Hay casos de éxito de estudiantes?
+      - ¿Puedo ver testimonios de otros alumnos?
+
+#
+#9. Sobre inscripción y próximos pasos
+#
+
+#¿Cómo me inscribo en el curso para el examen EGEL de egreso de la licenciatura área transversal?
+
+  - intent: preguntar_inscripcion_egel_transversal
+    examples: |
+      - ¿Cómo me inscribo en el curso para el examen EGEL de egreso de la licenciatura área transversal?
+      - Quiero inscribirme al curso de EGEL área transversal
+      - Pasos para inscribirme al curso de EGEL transversal
+      - Inscripción curso EGEL transversal
+
+#¿Cómo me inscribo en el curso para el examen EGEL de egreso de la licenciatura en Psicología?
+
+  - intent: preguntar_inscripcion_egel_psicologia
+    examples: |
+      - ¿Cómo me inscribo en el curso para el examen EGEL de egreso de la licenciatura en Psicología?
+      - Quiero inscribirme al curso de EGEL de Psicología
+      - Pasos para inscribirme al curso de EGEL de Psicología
+      - Inscripción curso EGEL Psicología
+
+#¿Cómo me inscribo en el curso para el examen EGEL de egreso de la licenciatura en Pedagogía?
+
+  - intent: preguntar_inscripcion_egel_pedagogia
+    examples: |
+      - ¿Cómo me inscribo en el curso para el examen EGEL de egreso de la licenciatura en Pedagogía?
+      - Quiero inscribirme al curso de EGEL de Pedagogía
+      - Pasos para inscribirme al curso de EGEL de Pedagogía
+      - Inscripción curso EGEL Pedagogía
+
+#¿Hay fechas límite para la inscripción?
+
+  - intent: preguntar_fechas_limite_inscripcion
+    examples: |
+      - ¿Hay fechas límite para la inscripción?
+      - Cuándo es la fecha límite para inscribirme
+      - Hasta cuándo puedo inscribirme
+      - Fechas límite de inscripción
+
+#¿Qué debo hacer si tengo más preguntas antes de inscribirme?
+
+  - intent: preguntar_mas_preguntas_antes_inscripcion
+    examples: |
+      - ¿Qué debo hacer si tengo más preguntas antes de inscribirme?
+      - Tengo más dudas antes de inscribirme
+      - Necesito más información antes de inscribirme
+      - Qué hago si tengo más preguntas
+
+#
+#10. Sobre soporte técnico, y 11. Sobre actualizaciones y acceso futuro
+#
+
+#¿Qué pasa si tengo problemas para acceder a las clases o materiales?
+  - intent: preguntar_problemas_acceso_clases_materiales
+    examples: |
+      - ¿Qué pasa si tengo problemas para acceder a las clases o materiales?
+      - No puedo acceder a las clases
+      - Tengo problemas para ver los materiales
+      - No me deja entrar a las clases
+      - Problemas para acceder al contenido del curso
+
+#¿Tendré acceso al contenido del curso después de finalizarlo?
+
+  - intent: preguntar_acceso_contenido_despues_curso
+    examples: |
+      - ¿Tendré acceso al contenido del curso después de finalizarlo?
+      - Puedo ver el contenido después de terminar el curso
+      - Acceso al material después de finalizar
+      - ¿Cuánto tiempo tengo acceso al contenido?
+      - ¿El contenido se bloquea después del curso?
+
+#¿El curso se actualizará con nuevo contenido en el futuro?
+
+  - intent: preguntar_actualizacion_contenido_curso
+    examples: |
+      - ¿El curso se actualizará con nuevo contenido en el futuro?
+      - Habrá actualizaciones del curso
+      - ¿Añadirán nuevo contenido al curso?
+      - ¿El material del curso se actualiza?
+      - ¿Habrá más contenido después de inscribirme?

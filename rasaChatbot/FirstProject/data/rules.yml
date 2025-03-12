@@ -1,0 +1,195 @@
+version: "3.1"
+
+rules:
+- rule: Responder a saludos
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+
+- rule: Responder a temas del curso EGEL transversal
+  steps:
+  - intent: preguntar_temas_egel_transversal
+  - action: utter_temas_egel_transversal
+
+- rule: Responder a temas del curso EGEL Psicología
+  steps:
+  - intent: preguntar_temas_egel_psicologia
+  - action: utter_temas_egel_psicologia
+
+- rule: Responder a temas del curso EGEL Pedagogía
+  steps:
+  - intent: preguntar_temas_egel_pedagogia
+  - action: utter_temas_egel_pedagogia
+
+- rule: Responder a modalidad del curso
+  steps:
+  - intent: preguntar_modalidad_curso
+  - action: utter_modalidad_curso
+
+- rule: Responder a requisitos del curso
+  steps:
+  - intent: preguntar_requisitos_curso
+  - action: utter_requisitos_curso
+
+#area 2
+
+- rule: Responder a duración del curso EGEL transversal
+  steps:
+  - intent: preguntar_duracion_curso_egel_transversal
+  - action: utter_duracion_curso_egel_transversal
+
+- rule: Responder duración curso Psicología
+  steps:
+  - intent: preguntar_duracion_curso_psicologia
+  - action: utter_duracion_curso_psicologia
+
+- rule: Responder duración curso Pedagogía
+  steps:
+  - intent: preguntar_duracion_curso_pedagogia
+  - action: utter_duracion_curso_pedagogia
+
+- rule: Responder sobre horarios
+  steps:
+  - intent: preguntar_horarios
+  - action: utter_horarios
+
+- rule: Responder sobre tipo del curso
+  steps:
+  - intent: preguntar_tipo_curso
+  - action: utter_tipo_curso
+
+#area 3
+
+- rule: Responder sobre instructores y su experiencia
+  steps:
+  - intent: preguntar_instructores_experiencia
+  - action: utter_instructores_experiencia
+
+- rule: Responder sobre disponibilidad de instructores
+  steps:
+  - intent: preguntar_disponibilidad_instructores
+  - action: utter_disponibilidad_instructores
+
+- rule: Responder sobre interacción con instructores
+  steps:
+  - intent: preguntar_interaccion_instructores
+  - action: utter_interaccion_instructores
+
+#area 4
+
+- rule: Responder sobre materiales de estudio
+  steps:
+  - intent: preguntar_materiales_estudio
+  - action: utter_materiales_estudio
+
+- rule: Responder sobre plataformas y herramientas
+  steps:
+  - intent: preguntar_plataformas_herramientas
+  - action: utter_plataformas_herramientas
+
+- rule: Responder sobre costo de materiales
+  steps:
+  - intent: preguntar_costo_materiales
+  - action: utter_costo_materiales
+
+#area 5
+
+- rule: Responder costo curso transversal
+  steps:
+  - intent: preguntar_costo_curso_transversal
+  - action: utter_costo_curso_transversal
+
+- rule: Responder costo curso Psicología
+  steps:
+  - intent: preguntar_costo_curso_psicologia
+  - action: utter_costo_curso_psicologia
+
+- rule: Responder costo curso Pedagogía
+  steps:
+  - intent: preguntar_costo_curso_pedagogia
+  - action: utter_costo_curso_pedagogia
+
+- rule: Responder métodos de pago
+  steps:
+  - intent: preguntar_metodos_pago
+  - action: utter_metodos_pago
+
+#area 6, 7 y 8
+
+- rule: Responder metodología de enseñanza
+  steps:
+  - intent: preguntar_metodologia_enseñanza
+  - action: utter_metodologia_enseñanza
+
+- rule: Responder reposición de clases
+  steps:
+  - intent: preguntar_reposicion_clases
+  - action: utter_reposicion_clases
+
+- rule: Responder clase de prueba
+  steps:
+  - intent: preguntar_clase_prueba
+  - action: utter_clase_prueba
+
+- rule: Responder habilidades curso transversal
+  steps:
+  - intent: preguntar_habilidades_transversal
+  - action: utter_habilidades_transversal
+
+- rule: Responder habilidades curso Psicología
+  steps:
+  - intent: preguntar_habilidades_psicologia
+  - action: utter_habilidades_psicologia
+
+- rule: Responder habilidades curso Pedagogía
+  steps:
+  - intent: preguntar_habilidades_pedagogia
+  - action: utter_habilidades_pedagogia
+
+- rule: Responder testimonios
+  steps:
+  - intent: preguntar_testimonios
+  - action: utter_testimonios
+
+#area 9
+
+- rule: Responder a preguntas de inscripción en EGEL transversal
+  steps:
+  - intent: preguntar_inscripcion_egel_transversal
+  - action: utter_inscripcion_egel_transversal
+
+- rule: Responder a preguntas de inscripción en EGEL Psicología
+  steps:
+  - intent: preguntar_inscripcion_egel_psicologia
+  - action: utter_inscripcion_egel_psicologia
+
+- rule: Responder a preguntas de inscripción en EGEL Pedagogía
+  steps:
+  - intent: preguntar_inscripcion_egel_pedagogia
+  - action: utter_inscripcion_egel_pedagogia
+
+- rule: Responder a preguntas sobre fechas límite de inscripción
+  steps:
+  - intent: preguntar_fechas_limite_inscripcion
+  - action: utter_fechas_limite_inscripcion
+
+- rule: Responder a preguntas sobre más dudas antes de inscribirse
+  steps:
+  - intent: preguntar_mas_preguntas_antes_inscripcion
+  - action: utter_mas_preguntas_antes_inscripcion
+
+#area 10 y 11
+- rule: Responder a problemas de acceso a clases o materiales
+  steps:
+  - intent: preguntar_problemas_acceso_clases_materiales
+  - action: utter_problemas_acceso_clases_materiales
+
+- rule: Responder a preguntas sobre acceso al contenido después del curso
+  steps:
+  - intent: preguntar_acceso_contenido_despues_curso
+  - action: utter_acceso_contenido_despues_curso
+
+- rule: Responder a preguntas sobre actualización del contenido del curso
+  steps:
+  - intent: preguntar_actualizacion_contenido_curso
+  - action: utter_actualizacion_contenido_curso

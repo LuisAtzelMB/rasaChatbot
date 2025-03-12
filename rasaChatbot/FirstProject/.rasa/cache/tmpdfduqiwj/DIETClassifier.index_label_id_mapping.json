@@ -1,0 +1,19 @@
+{
+  "0": "preguntar_costo_materiales",
+  "1": "preguntar_disponibilidad_instructores",
+  "2": "preguntar_duracion_curso_egel_transversal",
+  "3": "preguntar_duracion_curso_pedagogia",
+  "4": "preguntar_duracion_curso_psicologia",
+  "5": "preguntar_horarios",
+  "6": "preguntar_instructores_experiencia",
+  "7": "preguntar_interaccion_instructores",
+  "8": "preguntar_materiales_estudio",
+  "9": "preguntar_modalidad_curso",
+  "10": "preguntar_plataformas_herramientas",
+  "11": "preguntar_requisitos_curso",
+  "12": "preguntar_temas_egel_pedagogia",
+  "13": "preguntar_temas_egel_psicologia",
+  "14": "preguntar_temas_egel_transversal",
+  "15": "preguntar_tipo_curso",
+  "16": "saludar"
+}

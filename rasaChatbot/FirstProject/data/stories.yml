@@ -1,0 +1,196 @@
+version: "3.1"
+
+stories:
+
+- story: Saludo del usuario
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+
+- story: Historia para preguntar temas del curso EGEL transversal
+  steps:
+  - intent: preguntar_temas_egel_transversal
+  - action: utter_temas_egel_transversal
+
+- story: Historia para preguntar temas del curso EGEL Psicología
+  steps:
+  - intent: preguntar_temas_egel_psicologia
+  - action: utter_temas_egel_psicologia
+
+- story: Historia para preguntar temas del curso EGEL Pedagogía
+  steps:
+  - intent: preguntar_temas_egel_pedagogia
+  - action: utter_temas_egel_pedagogia
+
+- story: Historia para preguntar modalidad del curso
+  steps:
+  - intent: preguntar_modalidad_curso
+  - action: utter_modalidad_curso
+
+- story: Historia para preguntar requisitos del curso
+  steps:
+  - intent: preguntar_requisitos_curso
+  - action: utter_requisitos_curso
+
+#area 2
+- story: Historia para preguntar duración del curso EGEL transversal
+  steps:
+  - intent: preguntar_duracion_curso_egel_transversal
+  - action: utter_duracion_curso_egel_transversal
+
+- story: Historia sobre duración del curso de Psicología
+  steps:
+  - intent: preguntar_duracion_curso_psicologia
+  - action: utter_duracion_curso_psicologia
+
+- story: Historia sobre duración del curso de Pedagogía
+  steps:
+  - intent: preguntar_duracion_curso_pedagogia
+  - action: utter_duracion_curso_pedagogia
+
+- story: Historia sobre horarios del curso
+  steps:
+  - intent: preguntar_horarios
+  - action: utter_horarios
+
+- story: Historia sobre tipo del curso
+  steps:
+  - intent: preguntar_tipo_curso
+  - action: utter_tipo_curso
+
+#area 3
+
+- story: Historia sobre instructores y su experiencia
+  steps:
+  - intent: preguntar_instructores_experiencia
+  - action: utter_instructores_experiencia
+
+- story: Historia sobre disponibilidad de instructores
+  steps:
+  - intent: preguntar_disponibilidad_instructores
+  - action: utter_disponibilidad_instructores
+
+- story: Historia sobre interacción con instructores
+  steps:
+  - intent: preguntar_interaccion_instructores
+  - action: utter_interaccion_instructores
+
+#area 4
+
+- story: Historia sobre materiales de estudio
+  steps:
+  - intent: preguntar_materiales_estudio
+  - action: utter_materiales_estudio
+
+- story: Historia sobre plataformas y herramientas
+  steps:
+  - intent: preguntar_plataformas_herramientas
+  - action: utter_plataformas_herramientas
+
+- story: Historia sobre costo de materiales
+  steps:
+  - intent: preguntar_costo_materiales
+  - action: utter_costo_materiales
+
+#area 5
+
+- story: Historia sobre costo curso transversal
+  steps:
+  - intent: preguntar_costo_curso_transversal
+  - action: utter_costo_curso_transversal
+
+- story: Historia sobre costo curso Psicología
+  steps:
+  - intent: preguntar_costo_curso_psicologia
+  - action: utter_costo_curso_psicologia
+
+- story: Historia sobre costo curso Pedagogía
+  steps:
+  - intent: preguntar_costo_curso_pedagogia
+  - action: utter_costo_curso_pedagogia
+
+- story: Historia sobre métodos de pago
+  steps:
+  - intent: preguntar_metodos_pago
+  - action: utter_metodos_pago
+
+#area 6, 7 y 8
+
+- story: Historia sobre metodología de enseñanza
+  steps:
+  - intent: preguntar_metodologia_enseñanza
+  - action: utter_metodologia_enseñanza
+
+- story: Historia sobre reposición de clases
+  steps:
+  - intent: preguntar_reposicion_clases
+  - action: utter_reposicion_clases
+
+- story: Historia sobre clase de prueba
+  steps:
+  - intent: preguntar_clase_prueba
+  - action: utter_clase_prueba
+
+- story: Historia sobre habilidades curso transversal
+  steps:
+  - intent: preguntar_habilidades_transversal
+  - action: utter_habilidades_transversal
+
+- story: Historia sobre habilidades curso Psicología
+  steps:
+  - intent: preguntar_habilidades_psicologia
+  - action: utter_habilidades_psicologia
+
+- story: Historia sobre habilidades curso Pedagogía
+  steps:
+  - intent: preguntar_habilidades_pedagogia
+  - action: utter_habilidades_pedagogia
+
+- story: Historia sobre testimonios
+  steps:
+  - intent: preguntar_testimonios
+  - action: utter_testimonios
+
+#area 9
+
+- story: Historia de inscripción en EGEL transversal
+  steps:
+  - intent: preguntar_inscripcion_egel_transversal
+  - action: utter_inscripcion_egel_transversal
+
+- story: Historia de inscripción en EGEL Psicología
+  steps:
+  - intent: preguntar_inscripcion_egel_psicologia
+  - action: utter_inscripcion_egel_psicologia
+
+- story: Historia de inscripción en EGEL Pedagogía
+  steps:
+  - intent: preguntar_inscripcion_egel_pedagogia
+  - action: utter_inscripcion_egel_pedagogia
+
+- story: Historia de fechas límite de inscripción
+  steps:
+  - intent: preguntar_fechas_limite_inscripcion
+  - action: utter_fechas_limite_inscripcion
+
+- story: Historia de más preguntas antes de inscribirse
+  steps:
+  - intent: preguntar_mas_preguntas_antes_inscripcion
+  - action: utter_mas_preguntas_antes_inscripcion
+
+#area 10 y 11
+
+- story: Historia de problemas de acceso a clases o materiales
+  steps:
+  - intent: preguntar_problemas_acceso_clases_materiales
+  - action: utter_problemas_acceso_clases_materiales
+
+- story: Historia de acceso al contenido después del curso
+  steps:
+  - intent: preguntar_acceso_contenido_despues_curso
+  - action: utter_acceso_contenido_despues_curso
+
+- story: Historia de actualización del contenido del curso
+  steps:
+  - intent: preguntar_actualizacion_contenido_curso
+  - action: utter_actualizacion_contenido_curso

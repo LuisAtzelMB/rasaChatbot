@@ -1,0 +1,186 @@
+version: "3.1"
+
+intents:
+  - saludar
+  - preguntar_temas_egel_transversal
+  - preguntar_temas_egel_psicologia
+  - preguntar_temas_egel_pedagogia
+  - preguntar_modalidad_curso
+  - preguntar_requisitos_curso
+  - preguntar_duracion_curso_egel_transversal
+  - preguntar_duracion_curso_psicologia
+  - preguntar_duracion_curso_pedagogia
+  - preguntar_horarios
+  - preguntar_tipo_curso
+  - preguntar_instructores_experiencia
+  - preguntar_disponibilidad_instructores
+  - preguntar_interaccion_instructores
+  - preguntar_materiales_estudio
+  - preguntar_plataformas_herramientas
+  - preguntar_costo_materiales
+  - preguntar_costo_curso_transversal
+  - preguntar_costo_curso_psicologia
+  - preguntar_costo_curso_pedagogia
+  - preguntar_metodos_pago
+  - preguntar_metodologia_enseñanza
+  - preguntar_reposicion_clases
+  - preguntar_clase_prueba
+  - preguntar_habilidades_transversal
+  - preguntar_habilidades_psicologia
+  - preguntar_habilidades_pedagogia
+  - preguntar_testimonios
+  - preguntar_inscripcion_egel_transversal
+  - preguntar_inscripcion_egel_psicologia
+  - preguntar_inscripcion_egel_pedagogia
+  - preguntar_fechas_limite_inscripcion
+  - preguntar_mas_preguntas_antes_inscripcion
+  - preguntar_problemas_acceso_clases_materiales
+  - preguntar_acceso_contenido_despues_curso
+  - preguntar_actualizacion_contenido_curso
+
+
+
+responses:
+  utter_saludar:
+    - text: "¡Hola! 👋 Gracias por contactarnos a Ayconcursos🎓. Nos alegra saber de ti.
+Te contamos que tenemos disponibles varios cursos para ayudarte a presentar el examen EGEL de egreso. Ofrecemos:
+✅ Curso para presentar el examen EGEL de egreso en el área transversal.
+✅ Curso para presentar el examen EGEL de egreso en Psicología.
+✅ Curso para presentar el examen EGEL de egreso en Pedagogía.
+Si tienes alguna pregunta o necesitas más información sobre alguno de estos cursos, no dudes en decírmelo. ¡Estamos aquí para ayudarte! 🚀
+"
+  utter_temas_egel_transversal:
+    - text: "Claro, te comento que los temas que se cubren en los cursos pueden variar dependiendo del programa que elijas. Para ver toda la información detallada, te recomiendo revisar la página https://ayconcursos.net/producto/curso-para-presentar-examen-egel-egreso-licenciatura-area-transversal/. Ahí encontrarás todo lo que necesitas saber sobre los contenidos, duración y enfoque de cada curso. 😊
+
+Si tienes alguna duda adicional o necesitas ayuda para elegir el curso ideal, ¡no dudes en decírmelo! Estoy aquí para ayudarte. 🚀
+ "
+
+  utter_temas_egel_psicologia:
+    - text: "Claro, te comento que los temas que se cubren en los cursos pueden variar dependiendo del programa que elijas. Para ver toda la información detallada, te recomiendo revisar la página https://ayconcursos.net/producto/curso-para-presentar-examen-egel-de-egreso-psicologia/. Ahí encontrarás todo lo que necesitas saber sobre los contenidos, duración y enfoque de cada curso. 😊
+
+Si tienes alguna duda adicional o necesitas ayuda para elegir el curso ideal, ¡no dudes en decírmelo! Estoy aquí para ayudarte. 🚀
+"
+  utter_temas_egel_pedagogia:
+    - text: " Claro, te comento que los temas que se cubren en los cursos pueden variar dependiendo del programa que elijas. Para ver toda la información detallada, te recomiendo revisar la página https://ayconcursos.net/producto/curso-para-presentar-examen-egel-de-egreso-pedagogia/. Ahí encontrarás todo lo que necesitas saber sobre los contenidos, duración y enfoque de cada curso. 😊
+
+Si tienes alguna duda adicional o necesitas ayuda para elegir el curso ideal, ¡no dudes en decírmelo! Estoy aquí para ayudarte. 🚀
+"
+  utter_modalidad_curso:
+    - text: "Gracias por tu interés en nuestros cursos. Te comento que nuestros cursos son una combinación de teoría y práctica, diseñados para que aprendas de manera efectiva. Además, incluyen ejercicios que podrás realizar para reforzar lo aprendido.
+¿Te gustaría más información sobre algún curso en específico? Estoy aquí para ayudarte. 😊
+"
+  utter_requisitos_curso:
+    - text: "Para tomar el curso, es recomendable que tengas conocimientos básicos de computación y sepas cómo usar un navegador web (como Chrome, Firefox o Edge). Esto te ayudará a seguir el contenido sin dificultad. Si manejas estos conceptos, ¡estás listo para comenzar! 😊 ¿Tienes alguna otra pregunta? Estoy aquí para ayudarte.
+"
+
+#
+#area 2
+#
+
+  utter_duracion_curso_egel_transversal:
+    - text: "El curso para presentar el examen EGEL de egreso de licenciatura en el área transversal tiene una duración de dos meses. El inicio del curso es el 19 de mayo de 2025 y finaliza el 25 de julio de 2025. Si tienes más preguntas o necesitas ayuda con la inscripción, no dudes en decírmelo. ¡Estoy aquí para ayudarte! 😊"
+
+  utter_duracion_curso_psicologia:
+    - text: "El curso para presentar el examen EGEL de egreso en Psicología tiene una duración de 3 meses. El inicio del curso es el 21 de abril de 2025 y finaliza el 25 de julio de 2025. Si tienes más preguntas o necesitas ayuda con la inscripción, no dudes en decírmelo. ¡Estoy aquí para ayudarte! 😊"
+
+  utter_duracion_curso_pedagogia:
+    - text: "El curso para presentar el examen EGEL de egreso en Pedagogía tiene una duración de 3 meses. El inicio del curso es el 21 de abril de 2025 y finaliza el 25 de julio de 2025. Si tienes más preguntas o necesitas ayuda con la inscripción, no dudes en decírmelo. ¡Estoy aquí para ayudarte! 😊"
+
+  utter_horarios:
+    - text: "Estudia a tu propio ritmo con acceso continuo a todo el contenido, incluyendo recursos de apoyo, ejercicios y materiales adicionales, disponibles las 24 horas del día, los 7 días de la semana."
+
+  utter_tipo_curso:
+    - text: "Todos nuestros cursos son 100% en línea, lo que te permite avanzar a tu propio ritmo y desde la comodidad de tu hogar. Si tienes más preguntas o necesitas ayuda con la inscripción, no dudes en decírmelo. ¡Estoy aquí para ayudarte! 😊"
+
+#area 3
+
+  utter_instructores_experiencia:
+  - text: "Los cursos están guiados por profesores especializados en cada tema, con amplia experiencia en sus respectivos campos. Si quieres conocer más detalles sobre los instructores y su trayectoria, te recomiendo visitar https://ayconcursos.net/nuestros-cursos/. ¡Ahí encontrarás toda la info que necesitas! 😊 Si tienes más preguntas, ¡no dudes en escribirme! Estoy aquí para ayudarte. 🚀"
+
+  utter_disponibilidad_instructores:
+  - text: "Claro, durante el curso los instructores estarán disponibles para resolver todas tus dudas relacionadas con cada tema. Así te aseguras de entender todo al 100%. 😊 Si tienes más preguntas o necesitas detalles adicionales, ¡no dudes en decírmelo! Estoy aquí para ayudarte. 🚀"
+
+  utter_interaccion_instructores:
+  - text: "Claro, en cada horario de clase que está especificado en la página https://ayconcursos.net/nuestros-cursos/, tendrás acceso directo a un profesor para interactuar y resolver tus dudas. ¡Así estarás siempre bien acompañado durante tu aprendizaje! 😊 Si necesitas más información o ayuda, ¡aquí estoy! 🚀"
+
+#area 4
+
+  utter_materiales_estudio:
+    - text: "¡Sí, claro! Se proporcionan todos los materiales de estudio que necesitas, presentaciones, guías y más. Solo es necesario que tengas el programa referente al curso para acceder a todo el contenido. 😊 Si tienes más preguntas o necesitas ayuda, ¡no dudes en escribirme! Estoy aquí para apoyarte. 🚀"
+
+  utter_plataformas_herramientas:
+    - text: "¡Así es! El curso es en línea, por lo que tendrás acceso a la plataforma de Ayconcursos y herramientas adicionales para que tu aprendizaje sea más dinámico y completo. 😊 Si necesitas más detalles o tienes alguna otra pregunta, ¡no dudes en decírmelo! Estoy aquí para ayudarte. 🚀"
+
+  utter_costo_materiales:
+    - text: "Todos los materiales necesarios para el curso están incluidos en el costo 😀, así que no tendrás que realizar ningún pago adicional por ellos. Si tienes más preguntas o necesitas ayuda con la inscripción, no dudes en decírmelo. ¡Estoy aquí para ayudarte! 😊"
+
+#area 5
+
+  utter_costo_curso_transversal:
+  - text: "El costo total del curso para presentar el examen EGEL de egreso de licenciatura en el área transversal es de $3,500.00. Sin embargo, tenemos un descuento especial y te quedará en solo $2,500.00. Si tienes más preguntas o necesitas más información, ¡no dudes en preguntar!"
+
+  utter_costo_curso_psicologia:
+  - text: "El costo total del Curso para presentar el examen EGEL de egreso en Psicología es de $5,500.00. Sin embargo, tenemos una promoción y te lo podemos ofrecer por solo $4,500.00. Si tienes alguna otra pregunta o necesitas más información, no dudes en decírmelo. ¡Estamos aquí para ayudarte!"
+
+  utter_costo_curso_pedagogia:
+  - text: "El costo total del Curso para presentar el examen EGEL de egreso en pedagogía es de $5,500.00. Sin embargo, tenemos una oferta especial y puedes obtener un descuento, por lo que el precio final se queda en $4,500.00. Si tienes alguna otra pregunta o necesitas más información, no dudes en decírmelo. ¡Estamos aquí para ayudarte!"
+
+  utter_metodos_pago:
+  - text: "En nuestra página ofrecemos pago en línea para la compra de cursos. Puedes utilizar tarjetas de crédito o débito, así como otros métodos de pago digitales disponibles en nuestra plataforma. Si necesitas más información o ayuda con el proceso de compra, no dudes en decírmelo. ¡Estoy aquí para ayudarte!"
+
+
+#area 6, 7 y 8
+  utter_metodologia_enseñanza:
+  - text: "La metodología de enseñanza incluye clases programadas, videos, presentaciones, ejercicios prácticos y más. ¡Todo diseñado para que aprendas de la manera más efectiva y flexible! 😊 Si tienes más preguntas o necesitas detalles adicionales, ¡no dudes en escribirme! Estoy aquí para ayudarte. 🚀"
+
+  utter_reposicion_clases:
+  - text: "Si no puedes asistir a alguna clase, no te preocupes: todas nuestras clases quedan grabadas. Podrás acceder a la grabación en cualquier momento y ponerte al día con el contenido. Si tienes alguna otra pregunta o necesitas más información, ¡estaré encantado de ayudarte!"
+
+  utter_clase_prueba:
+  - text: "Claro que sí, ofrecemos clases de prueba para que puedas conocer el contenido y la metodología de nuestros cursos antes de comprometerte."
+
+  utter_habilidades_transversal:
+  - text: "Al finalizar el Curso para presentar el examen EGEL, obtendrás las siguientes habilidades y conocimientos: Familiaridad con las preguntas clave del examen, confianza y estrategias para responder correctamente, técnicas para resolver problemas complejos de manera eficiente, habilidad para identificar respuestas rápidamente, práctica con reactivos similares al examen, comprensión profunda y estructurada de los temas, asimilación eficiente de conocimientos, apoyo en tiempo real de expertos, aprendizaje con profesores capacitados en el contenido del examen, y acceso a material de estudio actualizado. ¡Te prepararemos para maximizar tu puntaje y asegurar tu éxito en el examen!"
+
+  utter_habilidades_psicologia:
+  - text: "Al finalizar el Curso para presentar el examen EGEL de egreso en Psicología, obtendrás: Familiaridad con las preguntas clave del examen, estrategias para responder de manera precisa y evitar errores comunes, técnicas para resolver problemas complejos rápidamente, habilidades de análisis para identificar respuestas correctas con facilidad, práctica con reactivos similares al examen, comprensión profunda de todos los temas evaluados, métodos de aprendizaje eficientes para asimilar información rápidamente, apoyo en tiempo real de expertos para resolver dudas, y material de estudio actualizado y relevante. ¡Estamos aquí para ayudarte a tener éxito en tu examen!"
+
+  utter_habilidades_pedagogia:
+  - text: "Al finalizar el Curso para presentar el examen EGEL de egreso en pedagogía, obtendrás: Familiaridad con las preguntas clave y tipos de preguntas del examen, estrategias para responder con precisión y evitar errores comunes, técnicas para resolver problemas rápidamente, habilidades de análisis para identificar respuestas correctas con facilidad, práctica con ejercicios similares al examen para aumentar tu confianza, comprensión profunda y estructurada de todos los temas evaluados, respuestas instantáneas a tus dudas con apoyo de expertos, y material de estudio actualizado y relevante. ¡Te prepararemos para que te sientas seguro y listo para el examen!"
+
+  utter_testimonios:
+  - text: "¡Claro que sí! Aquí te comparto algunos de los comentarios que hemos recibido en la plataforma: «Muy buenos los videos, me dejaron claro los contenidos.» — María, Uruguay. «Me sirvió bastante, un curso conciso y útil.» — Roberto, Chile. «Justo lo que estaba buscando, acceso 24/7, perfecto para mí.» — Antonio, México. Estos son solo algunos ejemplos de cómo nuestros estudiantes han logrado sus objetivos. 😊 Si tienes más preguntas, ¡no dudes en decírmelo! Estoy aquí para ayudarte. 🚀"
+
+#area 9
+
+  utter_inscripcion_egel_transversal:
+    - text: "Para inscribirte en el Curso para presentar el examen EGEL de egreso de licenciatura en el área transversal, puedes seguir estos pasos:\n\n1. Visita nuestra página oficial: Haz clic en el siguiente enlace para acceder directamente a la página del curso: https://ayconcursos.net/producto/curso-para-presentar-examen-egel-egreso-licenciatura-area-transversal/\n\n2. Selecciona el curso: Una vez en la página, encontrarás toda la información sobre el curso, incluyendo temarios, fechas y precios.\n\n3. Inscripción: Busca el botón de 'Inscribirme' o 'Comprar' y haz clic en él. Esto te llevará a un formulario donde podrás completar tus datos.\n\n4. Método de pago: Elige tu método de pago preferido y sigue las instrucciones para completar la transacción.\n\n5. Confirmación: Después de realizar el pago, recibirás un correo de confirmación con los detalles de tu inscripción.\n\nSi tienes alguna otra pregunta o necesitas ayuda adicional, no dudes en decírmelo. ¡Estamos aquí para ayudarte!"
+
+  utter_inscripcion_egel_psicologia:
+    - text: "Para inscribirte en el Curso para presentar el examen EGEL de egreso de licenciatura en Psicología, puedes seguir estos pasos:\n\n1. Visita nuestra página oficial: Haz clic en el siguiente enlace para acceder directamente a la página del curso: https://ayconcursos.net/producto/curso-para-presentar-examen-egel-de-egreso-psicologia/\n\n2. Selecciona el curso: Una vez en la página, encontrarás toda la información sobre el curso, incluyendo temarios, fechas y precios.\n\n3. Inscripción: Busca el botón de 'Inscribirme' o 'Comprar' y haz clic en él. Esto te llevará a un formulario donde podrás completar tus datos.\n\n4. Método de pago: Elige tu método de pago preferido y sigue las instrucciones para completar la transacción.\n\n5. Confirmación: Después de realizar el pago, recibirás un correo de confirmación con los detalles de tu inscripción.\n\nSi tienes alguna otra pregunta o necesitas ayuda adicional, no dudes en decírmelo. ¡Estamos aquí para ayudarte!"
+
+  utter_inscripcion_egel_pedagogia:
+    - text: "Para inscribirte en el Curso para presentar el examen EGEL de egreso de licenciatura en Pedagogía, puedes seguir estos pasos:\n\n1. Visita nuestra página oficial: Haz clic en el siguiente enlace para acceder directamente a la página del curso: https://ayconcursos.net/producto/curso-para-presentar-examen-egel-de-egreso-pedagogia/\n\n2. Selecciona el curso: Una vez en la página, encontrarás toda la información sobre el curso, incluyendo temarios, fechas y precios.\n\n3. Inscripción: Busca el botón de 'Inscribirme' o 'Comprar' y haz clic en él. Esto te llevará a un formulario donde podrás completar tus datos.\n\n4. Método de pago: Elige tu método de pago preferido y sigue las instrucciones para completar la transacción.\n\n5. Confirmación: Después de realizar el pago, recibirás un correo de confirmación con los detalles de tu inscripción.\n\nSi tienes alguna otra pregunta o necesitas ayuda adicional, no dudes en decírmelo. ¡Estamos aquí para ayudarte!"
+
+  utter_fechas_limite_inscripcion:
+    - text: "Las fechas de inicio de clases y cualquier fecha límite para la inscripción vienen especificadas en cada curso. Te recomiendo revisar la página https://ayconcursos.net/nuestros-cursos/ para ver los detalles del curso que te interesa. 😊\n\nSi necesitas ayuda o tienes más preguntas, ¡no dudes en escribirme! Estoy aquí para apoyarte. 🚀"
+
+  utter_mas_preguntas_antes_inscripcion:
+    - text: "Si tienes más preguntas antes de inscribirte, ¡no hay problema! Estoy aquí para ayudarte en este momento con cualquier duda que tengas. 😊 Solo dime en qué necesitas más información y te guiaré. 🚀"
+
+#area 10 y 11
+
+  utter_problemas_acceso_clases_materiales:
+    - text: "Si tienes problemas para acceder a las clases o materiales, te pedimos que nos envíes un correo a contacto@ayconcursos.net. Estaremos encantados de ayudarte a resolver cualquier inconveniente que tengas. ¡Gracias por contactarnos!"
+
+  utter_acceso_contenido_despues_curso:
+    - text: "Una vez que finalizas el curso, tendrás acceso al contenido durante un mes. Después de ese plazo, ya no podrás acceder al material. Si tienes más preguntas o necesitas ayuda con algo más, no dudes en decírmelo. ¡Estoy aquí para ayudarte!"
+
+  utter_actualizacion_contenido_curso:
+    - text: "Todos nuestros cursos están diseñados para ofrecer contenido relevante y actualizado. Nos comprometemos a mantenerlos al día, lo que significa que, si se introduce nuevo contenido o se realizan actualizaciones significativas, los estudiantes tendrán acceso a esos cambios sin costo adicional. Queremos asegurarnos de que siempre tengas la mejor información y recursos disponibles. Si tienes más preguntas, no dudes en preguntar. ¡Estoy aquí para ayudarte!"
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

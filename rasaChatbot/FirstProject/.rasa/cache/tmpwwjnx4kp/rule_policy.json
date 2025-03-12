@@ -1,0 +1,28 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_modalidad_curso\"}}]": "utter_modalidad_curso",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_modalidad_curso\"}}, {\"prev_action\": {\"action_name\": \"utter_modalidad_curso\"}, \"user\": {\"intent\": \"preguntar_modalidad_curso\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_duracion_curso_egel_transversal\"}}]": "utter_duracion_curso_egel_transversal",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_duracion_curso_egel_transversal\"}}, {\"prev_action\": {\"action_name\": \"utter_duracion_curso_egel_transversal\"}, \"user\": {\"intent\": \"preguntar_duracion_curso_egel_transversal\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_temas_egel_pedagogia\"}}]": "utter_temas_egel_pedagogia",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_temas_egel_pedagogia\"}}, {\"prev_action\": {\"action_name\": \"utter_temas_egel_pedagogia\"}, \"user\": {\"intent\": \"preguntar_temas_egel_pedagogia\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"saludar\"}}]": "utter_saludar",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"saludar\"}}, {\"prev_action\": {\"action_name\": \"utter_saludar\"}, \"user\": {\"intent\": \"saludar\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_temas_egel_psicologia\"}}]": "utter_temas_egel_psicologia",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_temas_egel_psicologia\"}}, {\"prev_action\": {\"action_name\": \"utter_temas_egel_psicologia\"}, \"user\": {\"intent\": \"preguntar_temas_egel_psicologia\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_requisitos_curso\"}}]": "utter_requisitos_curso",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_requisitos_curso\"}}, {\"prev_action\": {\"action_name\": \"utter_requisitos_curso\"}, \"user\": {\"intent\": \"preguntar_requisitos_curso\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_temas_egel_transversal\"}}]": "utter_temas_egel_transversal",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_temas_egel_transversal\"}}, {\"prev_action\": {\"action_name\": \"utter_temas_egel_transversal\"}, \"user\": {\"intent\": \"preguntar_temas_egel_transversal\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent back",
+      "predicting default action with intent session_start",
+      "predicting default action with intent restart"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqLY2FgAiGxxa": "utter_saludar",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKaUlJalF8TDFuE2JBQCOKTcW": "action_listen",
+    "eJwti9EJgDAMBVfpAE7QVURCkEcp1ChJ2p/S3Q3o3x3c7XNtaT6KQXx6vSWn+QEJX8jpl1bNIdF2g0ZTJdRzirN0cVZyXGyEgkauLDagxm2t4wVtACbP": "utter_temas_egel_transversal",
+    "eJydjUEKgDAMBL/SB/iCfkUkBFmk0EZJUi+lf7egVxG87cDO7tz6FNqhOIlXT7vE0O5AwgUxPJCTOWR0q0FHJ8lAj2GYWxVnJUdhI2zI5MpiJ9Q494/56o5X98fbcgFXTFI+": "action_listen",
+    "eJwty9EJwCAMRdFVHKATuEopIdgggo0lif6Iuzel/XsXztvn2sK8hQZgstI4hvkNYLwohj9qUSN225XETWFPi8GfubOhwNkF00tTF21AmSqYIOsgUaxrHQ/cjiqV": "utter_duracion_curso_egel_transversal",
+    "eJyljcsJgDAQRFtJAVaQVkSWJS4hEFfZj5eQ3o3o3YO3efBmZm59Cu0QOgGTlZ1jaE8Axo1ieKEWNeLhupIMp/BAi2E0s7OhwOqC6VaTi+5AmSqYIOtJolj7x4+b0ffIn//lAsTGXZA=": "action_listen",
+    "eJwti9sJgDAMAFfJAE7QVURCKUECmmoe/pTubkD/7uBuHXOBcSk9WJtzlwLjA5R6UoFfDjYnyTaMNBuWVC+Q5x7iVVHpDjb2bthCrc+5vY4cJIg=": "utter_requisitos_curso",
+    "eJyVjUsKgDAMRK+SA3iCXkWklBIkoKnm46Z4dwO6FMTdPJg3M/ZzgL4JHrlUo8YJ+h0ylxUTPLCQGnJ0XVGiQxxoCcKcna1IFtydlKxpri7azo9hN8MX69fDdAHj2Utp": "action_listen",
+    "eJwti8EJwCAMAFfJAJ3AVUoJQYIEbBQT+xF3b6D93cHdufYBqw9+kLJL0wTrA1S6OcEvVcxZo53GIxrRUE8QZ5nqNND5JkMuXLGb5FZbEdr7egFFZCZE": "utter_temas_egel_psicologia",
+    "eJyVjUEKwCAMBL/iA/oCv1JKCBIkoFE09iL+vYH2WkpvO7Czu8+1uVkbnYBBuYh38w4gmMm7BxJ3JbHu6NSsw2Ko3pkZhyg2UMrYgSIlqJ1DSSUyro/1oUpv6v+v4wJH9lCd": "action_listen",
+    "eJwti8EJgDAMAFfJAE7QVURCaIMEaipp6qd0dwP6u4O7fa4N5m38IGWXpgnmB6h0cYJfqnRnjXZ0tmhEQz1BnOdQJ8OrFapSqGAe1ttaxwtl7CPP": "utter_modalidad_curso",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBqDO9NK8ksSg+Nz8lMSczJTElPrm0qDi/loC5pSUlqZiaSDE/FgDKaEk+": "action_listen",
+    "eJwti8EJgDAMAFfJAE7QVURC0BACNS1t6qd0dwP6u4O7fa4NZm38IJ2uxRLMD9Do5gS/ZO3OFu3o3KJRC/UEccowp4bON3Vk4YyVL5IiSmsdLx4FJbs=": "utter_temas_egel_pedagogia",
+    "eJyVjVEKgCAQRK/iATqBV4lYlhpE0FV07Ue8e0L9RvQ3D+bNrH0spueCk3hXn8SafgcSjrDmgeCrQma3VZTZ8TJRrZmma6JcSBG5EhwCZRzskvM8PsabKl7M30/bBT3NTwI=": "action_listen"
+  }
+}
