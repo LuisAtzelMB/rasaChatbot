@@ -1,6 +1,6 @@
 # rasaChatbot
 Hola, que tal ¿deseas empezar con este proyecto o modificarlo?.
-No olvides descargarlo en tu IDE y crear un entorno de desarrollo, es la carpeta .venv. Junto con este archivo, dentro de la carpeta de tu aplicación descarga los archivos de mi repositorio. Ademas revisa que tu versión de python sea correcta, las compatible para este proyecto es la 3.9
+No olvides descargarlo en tu IDE y crear un entorno de desarrollo, es la carpeta .venv. Junto con este archivo, dentro de la carpeta de tu aplicación descarga los archivos de mi repositorio. Ademas revisa que tu versión de python sea correcta, la compatible para este proyecto es la 3.9, usa el comando pip install rasa y carga los archivos del repositorio.
 
 ¿Por qué descargarlo?
 
